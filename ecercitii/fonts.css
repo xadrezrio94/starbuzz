@@ -1,29 +1,32 @@
 body{
     box-sizing: border border-box;
+
+    border-style: dashed;
+    border-color: white;
 }
 
 
 #p1{
     font-weight: bolder;
-    font-family: 'Roboto Slab';
-    text-decoration: underline;
+    font-family: robot, slab ;
+    text-decoration: ;
     font-size: 1.2em;
     text-align: center;
-    border: 3px solid teal;
-    border-style: solid;
+    border: 3px dashed white;
+    border-style: dashed;
     border-width: 3px;
-    border-color: teal;
+    border-color: white;
     border-radius: 1em;
     padding: 10px;
     padding-bottom: 20ox;
     margin: auto;
-    background-color: pink;
-    background-image:url(starbuzz/images/background.gif);
+    background-color: skyblue;
+    background-image:url(background.gif);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: over left;
     background-size: auto;
 
-    color: white;
+    color: black;
     width: 250px;
     height: 300px;
     box-sizing: border-box;
@@ -35,16 +38,18 @@ p{
     text-decoration: blink;
     line-height: 1.2em;
     text-align: justify;
+    
 
 }
 
 #p1 span{
-    color: turquoise;
+    color: red;
 }
 dvi{
     background-color: burlywood;
     border: 2px solid red;
     padding: 10px;
+    background-color: blue;
 
 }
 
@@ -52,4 +57,5 @@ div div{
     background-color: coral;
     border: 2px solid blue;
     width: 75%;
+   
 }
