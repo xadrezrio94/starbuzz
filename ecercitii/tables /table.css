@@ -1,0 +1,35 @@
+ table {
+     margin: auto;
+     margin-top: 20px;
+    border: 2px solid seagreen;
+    background-color: teal;
+ }
+
+ th {
+
+    background-color: tan;
+    border-bottom: 2px solid seagreen;
+    text-align: left;
+    padding: 10px;
+
+ }
+
+ td { 
+
+    background-color: springgreen;
+    border: 2px solid;
+    border-bottom: tan;
+    padding: 10px;
+    
+
+
+ }
+
+ tr:nth-child(even){
+     background-color: white;
+     
+ }
+
+ tr:nth-child(odd){
+     background-color: gray;
+ }
