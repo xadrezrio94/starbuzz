@@ -1,0 +1,9 @@
+
+form {
+      background-color: lightgray;
+}
+
+input, select {
+    display: block;
+}
+

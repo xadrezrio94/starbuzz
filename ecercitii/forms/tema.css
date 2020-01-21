@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    
+}
+form{
+
+    background-color: whitesmoke;
+    width: 60%;
+    margin-left: inherit;
+}
+
+input {
+
+    display: block;
+
+}
+
+input [type=text] {
+    width: 90%;
+    border-radius: 10%;
+    padding: 1em 2em;
+    border: 1px solid #cccccc;
+}
