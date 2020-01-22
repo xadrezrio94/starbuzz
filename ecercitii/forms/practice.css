@@ -1,6 +1,9 @@
 
 form {
-      background-color: lightgray;
+    display: block;
+      background-color: 2px solid rgba(143, 195, 216, 0.877);
+      border: rgb(198, 224, 240);
+      margin: auto;
 }
 
 input, select {
