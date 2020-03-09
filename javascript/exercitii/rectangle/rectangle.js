@@ -3,12 +3,12 @@
 var rectangle = document.querySelector("div");
 
 function minimize() {
-   current = rectangle.style.height;
-   console.log(rectangle.style.height);
-   var n = current.substring(0, current.legth - 1);
-   var newer = --n  + "%";
-   console.log(n);
+    var computedstyle = window.getComputedStyle(rectangle);
+   current = getComputedStyle.height;
+   var n = current.substring(0, current.legth - 2);
+   var newer = --n  + "px";
    rectangle.style.height = newer;
+   setTimeout(minimize, 50);
 }
 
 minimize();
