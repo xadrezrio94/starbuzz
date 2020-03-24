@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body {
+    font-family: monospace;
+    font-size: 1.2em;
+}
+
+#drawing {
+    position: relative;
+    background-color: #ddd;
+    height: 20em;
+    width: 20em;
+}
+
+#drawing div {
+    background-color: black;
+    position: absolute;
+}
+
+#base {
+    width: 0.5em;
+    height: 20em;
+    top: 0;
+    left: 10em;
+}
+
+#pillar {
+    width: 16em;
+    height: 0.5;
+    bottom: 0;
+    left: 8em;
+}
+
+#suport {
+    width: 6em;
+    height: 0.5;
+    top: 0;
+    left: 8em;
+}
+
+rope {
+    width: 0.2em;
+    height: 5em;
+    top: 0;
+    left: 14em;
+}
